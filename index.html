@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stanford Rap Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-container">
+                    <svg class="stanford-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" fill="#8C1515" stroke="#8C1515" stroke-width="2"/>
+                        <text x="50" y="58" text-anchor="middle" fill="white" font-family="serif" font-size="24" font-weight="bold">S</text>
+                    </svg>
+                    <span class="logo-text">Stanford Rap Club</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span>STANFORD</span>
+            </div>
+            <h1>Stanford Rap Club</h1>
+            <p>Exploring the infinite possibilities of rap art at Stanford University</p>
+            <button class="cta-button">Join Us</button>
+        </div>
+        <div class="hero-visual">
+            <div class="geometric-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>The Stanford Rap Club is dedicated to fostering rap culture in an academic environment, providing a platform for creation, performance, and exchange for all students interested in rap music.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events">
+        <div class="container">
+            <div class="section-header">
+                <h2>Upcoming Events</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date">
+                        <div class="date-month">SEP</div>
+                    </div>
+                    <div class="event-content">
+                        <h3>New Member Gathering</h3>
+                        <p>Welcome new members to the Stanford Rap Club family</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <div class="date-month">SEP</div>
+                    </div>
+                    <div class="event-content">
+                        <h3>2025 Stanford Cypher Workshop</h3>
+                        <p>Learn freestyle techniques and collaborative rap skills</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <div class="date-month">SEP</div>
+                    </div>
+                    <div class="event-content">
+                        <h3>Music x Tech Night</h3>
+                        <p>Exploring the intersection of music and technology</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <div class="date-month">OCT</div>
+                    </div>
+                    <div class="event-content">
+                        <h3>Open Mic Night</h3>
+                        <p>Showcase your talent in our monthly open mic session</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="members" class="members">
+        <div class="container">
+            <div class="section-header">
+                <h2>Core Members</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="members-grid">
+                <div class="member-card">
+                    <div class="member-avatar">
+                        <div class="avatar-initial">J</div>
+                    </div>
+                    <h3>Jill Lyu</h3>
+                    <p class="member-role">Club President</p>
+                    <p class="member-bio">2nd Year MA</p>
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar">
+                        <div class="avatar-initial">R</div>
+                    </div>
+                    <h3>Ryan Zheng</h3>
+                    <p class="member-role">Core Member</p>
+                    <p class="member-bio">Undergraduate '27</p>
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar">
+                        <div class="avatar-initial">B</div>
+                    </div>
+                    <h3>Brian Liu</h3>
+                    <p class="member-role">Core Member</p>
+                    <p class="member-bio">Alumni '25</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">jierlyu@stanford.edu</span>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Message" rows="4" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg class="stanford-logo-small" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="22" fill="#8C1515"/>
+                        <text x="25" y="32" text-anchor="middle" fill="white" font-family="serif" font-size="12" font-weight="bold">S</text>
+                    </svg>
+                </div>
+                <p>&copy; 2025 Stanford Rap Club</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
